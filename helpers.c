@@ -71,7 +71,7 @@ void lomutoSort(int *array, size_t size, int left, int right)
 }
 
 /**
- * swap_nodes - Swap two nodes in a listint_t doubly-linked list.
+ * swapNodes - Swap two nodes in a listint_t doubly-linked list.
  * @h: A pointer to the head of the doubly-linked list.
  * @n1: A pointer to the first node to swap.
  * @n2: The second node to swap.
