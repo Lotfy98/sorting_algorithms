@@ -8,6 +8,18 @@
 #define UP 0
 #define DOWN 1
 
+/**
+ * enum bool - Enumeration of boolean values
+ * @false: Represents a false condition
+ * @true: Represents a true condition
+ *
+ * Description: A custom boolean data type.
+ */
+typedef enum bool
+{
+	false = 0,
+	true
+} bool;
 
 /**
  * struct listint_s - Doubly linked list node
@@ -35,7 +47,5 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
-
 
 #endif
