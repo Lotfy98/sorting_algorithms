@@ -8,16 +8,13 @@
 #define UP 0
 #define DOWN 1
 
-/**
- * enum bool - Enumeration of boolean values
- *false: false
- *true: true
- */
+/*enum bool - Enumeration of boolean values*/
 typedef enum bool
 {
-	false = 0,
-	true
+false = 0,
+true
 } bool;
+
 
 /**
  * struct listint_s - Doubly linked list node
@@ -35,10 +32,6 @@ typedef struct listint_s
 
 /*Helper for swapping*/
 void swapInts(int *a, int *b);
-void swapNodes(listint_t **h, listint_t **n1, listint_t *n2);
-int lomutoPartition(int *array, size_t size, int left, int right);
-void lomutoSort(int *array, size_t size, int left, int right);
-void quick_sort(int *array, size_t size);
 
 /*Printing helper functions */
 void print_array(const int *array, size_t size);
@@ -49,5 +42,7 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+
+
 
 #endif
